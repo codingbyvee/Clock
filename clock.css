@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #222;
+    background-image: url(clock.png);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+  }
+  
+  .clock {
+    background-color: #333;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size:60px;
+    font-family:Orbitron;
+  }
+  
+  #time {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+  }
+  
